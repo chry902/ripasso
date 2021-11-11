@@ -54,6 +54,21 @@ console.log(`complimenti il numero inserito ${numeroUtente} è uguale al numero 
 
 
 
+const monete1cent = Math.floor(Math.random() * 100);
+console.log(` da 1 sono ${monete1cent}`);
+const monete2cent = Math.floor(Math.random() * 100);
+console.log(`da 2 sono ${monete2cent}`);
+const monete5cent = Math.floor(Math.random() * 100);
+console.log(`da 5 sono ${monete5cent}`);
+const monete100cent = Math.floor(Math.random() * 100);
+console.log(`da 100 sono ${monete100cent}`);
+const totaleMacchinetta = monete1cent + monete2cent + monete5cent + monete100cent;
+console.log(`totale ${totaleMacchinetta}`);
+
+
+
+
+/*
 const monete1cent = Math.floor(Math.random() * 100) * 1;
 console.log(` da 1 sono ${monete1cent}`);
 const monete2cent = Math.floor(Math.random() * 100) * 2;
@@ -64,3 +79,4 @@ const monete100cent = Math.floor(Math.random() * 100) * 100;
 console.log(`da 100 sono ${monete100cent}`);
 const totaleMacchinetta = monete1cent + monete2cent + monete5cent + monete100cent;
 console.log(`totale ${totaleMacchinetta}`);
+*/
